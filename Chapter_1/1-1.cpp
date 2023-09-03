@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 using namespace std;
-int mian()
+int main()
 {
   int oneInt1, oneInt2;
   char strArray[20];

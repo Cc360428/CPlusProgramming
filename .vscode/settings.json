@@ -17,6 +17,10 @@
     "unordered_map": "cpp",
     "vector": "cpp",
     "ostream": "cpp",
-    "iostream": "cpp"
+    "iostream": "cpp",
+    "fstream": "cpp",
+    "iosfwd": "cpp",
+    "random": "cpp",
+    "cstring": "cpp"
   }
 }

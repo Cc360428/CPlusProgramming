@@ -40,16 +40,21 @@ int main()
   cout << "max:" << max << endl;
   cout << "min:" << min << endl;
   cout << "ave:" << (total / n) << endl;
-  cout << *arrayss << endl;
   delete[] arrayss;
   return 0;
 }
 
 /*
-输入几个字符串：2
-请输入字符串：12
-123123
-最长的字符串为：123123
-最短的字符串为：12
+您需要输入N个字符串:3
+您需要输入(3)组字符串
 
+请输入字符串(1)组字符串
+1
+请输入字符串(2)组字符串
+22
+请输入字符串(3)组字符串
+333
+max:333
+min:1
+ave:2
  */

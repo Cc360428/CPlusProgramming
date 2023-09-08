@@ -60,6 +60,11 @@
     "functional": "cpp",
     "memory_resource": "cpp",
     "utility": "cpp",
-    "cinttypes": "cpp"
+    "cinttypes": "cpp",
+    "cctype": "cpp",
+    "clocale": "cpp",
+    "cstdarg": "cpp",
+    "cwctype": "cpp",
+    "iomanip": "cpp"
   }
 }

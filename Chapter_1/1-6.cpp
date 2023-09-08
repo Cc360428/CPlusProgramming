@@ -29,3 +29,11 @@ int main()
   cout << "调用SwapRef()后：\t\ta=" << a << ",b=" << b << endl;
   return 0;
 }
+
+/*
+数据交换前：            a=10,b=20
+在SwapValue()函数中：           a=20,b=10
+调用SwapValue()后：             a=10,b=20
+在SwapRef()函数中：             a=20,b=10
+调用SwapRef()后：               a=20,b=10
+ */

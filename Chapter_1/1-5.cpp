@@ -22,3 +22,9 @@ int main()
   cout << r3 << endl;
   return 0;
 }
+/*
+
+OK
+30
+30
+ */

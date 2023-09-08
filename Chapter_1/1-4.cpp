@@ -14,3 +14,9 @@ int main()
   cout << "ref2 = " << ref2 << endl;
   return 0;
 }
+/*
+oneInt = 2,ref =2
+ref = 3
+refc = 3
+ref2 = 3
+ */

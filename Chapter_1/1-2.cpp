@@ -24,3 +24,14 @@ int main()
 
   return 0;
 }
+/*
+a 的指针地址为：        0x7ffefbda6dac  a的值为 10
+*p 指针地址为：0x7ffefbda6dac   *p的值为：      10
+a的地址为：     0x7ffefbda6dac  a 的值为：      20
+*p的地址为：    0x7ffefbda6da0  *p 的值为：     20
+*q的地址为：    0x7ffefbda6d90  *q 的值为：     20
+分界线
+ca的地址为：    0x7ffefbda6d9c  ca 的值为：     30
+*p的地址为：    0x7ffefbda6da0  *p 的值为：     40
+*q的地址为：    0x7ffefbda6d90  *q 的值为：     40
+ */

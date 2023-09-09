@@ -2,7 +2,7 @@
 #include "2-1.h"
 
 using namespace std;
-
+// Class Student
 class Student
 {
 public:

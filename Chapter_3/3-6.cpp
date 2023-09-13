@@ -25,3 +25,9 @@ void fun1(int ii)
    int x = 201;
    cout << "在fun1 中 --ii = " << ii << ",\t x = " << x << ",\t ch = " << ch << ",\t i = " << i << endl;
 }
+/* 
+
+在main 中 -- x = 11,     ch = 1
+在fun1 中 --ii = 11,     x = 201,        ch = 1,         i = 21111
+在fun2 中 --x = 11,      ch = 202.2,    i = 22222
+ */

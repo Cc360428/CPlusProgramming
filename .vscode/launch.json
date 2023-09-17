@@ -13,7 +13,7 @@
       "externalConsole": false,
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
-      "preLaunchTask": "compile",
+      "preLaunchTask": "g++",
       "setupCommands": [
         {
           "description": "Enable pretty-printing for gdb",

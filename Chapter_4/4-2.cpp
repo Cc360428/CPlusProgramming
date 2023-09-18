@@ -38,12 +38,12 @@ myComplex::myComplex(double r, double i)
 
 void myComplex::outCom()
 {
-   cout << "(" << real << "," << image << ")" ;
+   cout << "(" << real << "," << image << ")";
 }
 
 void myComplex::outCom(string s)
 {
-   cout << s << "(" << real << "," << image << ")"<<endl;
+   cout << s << "(" << real << "," << image << ")" << endl;
 }
 void myComplex::changeReal(double r)
 {
@@ -132,3 +132,24 @@ int main()
    res.outCom("执行 res = c1 = c2 \t res");
    return 0;
 }
+
+/*
+
+                         c1(1,2)
+                         c2(3,4)
+执行 res = c1 + c2 -> r  res(4,6)
+执行 res = c1.addCom(c2)->       res(4,6)
+执行 res = c1 + 5        res(6,2)
+执行 res = 5 + c1        res(6,2)
+                         c1(1,2)
+执行 res = c1    res(1,2)
+执行 c1.changeReal(-3) ->        c1(1,2)
+                         res(1,2)
+执行 res = c1 ->         c1(-3,2)
+执行 res = 7->           res(7,0)
+执行  res = (7+8) ->     res(15,0)
+                         c1(3,4)
+                         c2(3,4)
+执行 res = c1 = c2       res(3,4)
+
+*/

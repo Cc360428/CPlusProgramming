@@ -65,6 +65,7 @@
     "clocale": "cpp",
     "cstdarg": "cpp",
     "cwctype": "cpp",
-    "iomanip": "cpp"
+    "iomanip": "cpp",
+    "7-4cpp": "cpp"
   }
 }

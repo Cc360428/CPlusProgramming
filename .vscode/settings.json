@@ -66,6 +66,7 @@
     "cstdarg": "cpp",
     "cwctype": "cpp",
     "iomanip": "cpp",
-    "7-4cpp": "cpp"
+    "7-4cpp": "cpp",
+    "bitset": "cpp"
   }
 }

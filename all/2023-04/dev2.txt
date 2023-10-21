@@ -1,0 +1,22 @@
+1:#include <iostream>
+2:#include <fstream>
+3:using namespace std;
+4:
+5:int main()
+6:{
+7:    fstream inf, outf;
+8:    inf.open("dev1.cpp", ios::in);
+9:    outf.open("dev2.txt", ios::out);
+10:    char s[80];
+11:
+12:    int n = 1;
+13:    while (!inf.eof())
+14:    {
+15:        inf.getline(s, sizeof(s));
+16:        outf << n++ << ":" << s << endl;
+17:    }
+18:    inf.close();
+19:    outf.close();
+20:    return 0;
+21:}
+22:
